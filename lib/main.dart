@@ -7,12 +7,14 @@ void main() {
       home: Scaffold(
         backgroundColor: Colors.blueGrey,
         appBar: AppBar(
-          title: Text('I am rich'),
+          title: Center(
+            child: Text('I am rich'),
+          ),
           backgroundColor: Colors.blueGrey[900],
         ),
         body: Center(
           child: Image(
-            image: AssetImage('images/devops.png'),
+            image: AssetImage('images/diamond1.png'),
           ),
         ),
       ),
