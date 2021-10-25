@@ -12,7 +12,7 @@ void main() {
         ),
         body: Center(
           child: Image(
-            image: NetworkImage('https://c8.alamy.com/comp/2BHG705/colourful-conceptual-images-2BHG705.jpg'),
+            image: AssetImage('images/devops.png'),
           ),
         ),
       ),
